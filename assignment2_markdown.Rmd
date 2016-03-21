@@ -1,5 +1,5 @@
 ---
-title: "Assignment 2"
+title: "Assignment 2: Research Proposal"
 author: "Philip"
 date: "21 Mar 2016"
 output: pdf_document
@@ -22,5 +22,11 @@ repmis::LoadandCite(PackagesUsed, file = "packages.bib", install = FALSE)
 
 
 
-## R Markdown
+# Introduction - Research Question and Hypotheses
+
+# Literature Review
+
+# Data 
+
+# Methodology and Challenges
 
