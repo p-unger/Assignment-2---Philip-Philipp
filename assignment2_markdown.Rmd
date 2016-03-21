@@ -21,12 +21,66 @@ repmis::LoadandCite(PackagesUsed, file = "packages.bib", install = FALSE)
 ```
 
 
+# Introduction
+In today’s society, most people expect more from their jobs and careers than simply making a living. A job is a key determinant for social status, identity, as well as an expression of independence. It is supposed to match your interests and educational achievements, it should be rewarding and subsequently it is an important factor for life-satisfaction. The importance of work is supported by academic studies, Allmendinger (forthcoming), for instance, found based on a German survey that employment was the factor that most respondent regarded as ‘highly important’, more so than any other goal or value in life [Footnote: Preliminary results were published by @zeit2016]. One could summarise it as such: “you spend too much time on work to do something you don’t like”.
 
-# Introduction - Research Question and Hypotheses
+Empirical evidence, however, indicates that the instrumental importance of work for both men and women makes it difficult to reconcile work and family life, especially with respect to care responsibilities. Across industrialized countries, a majority of partnerships still end up in a single-breadwinner constellation (predominantly male) with asymmetric division of wage and care work [@hipp2015]. What are the implications of these two hardly reconcilable goals in life on work and overall life-satisfaction? Specifically women seem to be haunted by inconsistent expectations and persistent gender norms on household and labour market roles, which limits their ability to pursue a career and have a family.
+ 
+In the research project we wish to address the question: “Is career pursuits reconcilable with a happy life?”. The question has previously been addressed in academic literature (see the literature review), and studies have particularly established a contradictory relationship between career pursuits and self-reported life-satisfaction for women, whereas the relationship do not appear to be present for men. Therefore, we initially focus our analysis on women. We consider to address the question in three parts. 
+
+First, we want to build on a study by @bertrand2013 that found women with a family to report higher life-satisfaction than women with a career, regardless of whether the woman with a career has a family or not. We speculate that the deployed definition of a career (earning the equivalent to the 25th income percentile of men in the same age cohort) is too inclusive. Thus, we wish to investigate whether the result persists when looking at women who have a higher level of success relative to the age cohort. Intuitively, we speculate that women who decide to pursue a career do so, because they expect to thrive in such an environment, and it is thus paradoxical that they consistently report low life-satisfaction [Footnote, an alternative is to look at women in traditional career occupations, such as managerial professions]. Thus hypothesis 1: Women who pursue a career, and have success with respect to earnings relative to male peers, have equal life-satisfaction as women who chooses to establish a family. 
+
+Second, we acknowledge that societal norms might induce a life-satisfaction penalty on career women, as it is contrary to traditional family structures. Regardless of whether we find support for hypothesis one, we wish to investigate what drives the lower life-satisfaction observed in earlier studies.
+
+A priori, we hypothesize the following three relationships if norms are a driving factor:
+
+* We have access to data on both job-satisfaction and overall life-satisfaction. If norms are a driving factor, we would expect career women to report job-satisfaction equal to their male peers, while reporting lower overall life happiness (hypothesis 2).
+* As societal norms are likely to have become more constructive for career women over time, we would expect career women in earlier cohorts to report lower life-satisfaction relative to later generations (hypothesis 3). 
 
 # Literature Review
+The following literature review will focus on the gender-specific impact of career and work hour preferences on work and overall life satisfaction but also discuss related studies on gender identity, the division of wage and care work as well as the measurement of subjective well-being.
+
+In economic theory the division of wage and household work is understood as a form of economic specialization [@becker1965; @becker1985] and an outcome of a bargaining process [@blood1995; @lundberg1996]. From a purely economic perspective, the role specialization among couples is based on their relative human capital and related income prospects. However, a comparative advantage perspective can only explain a fraction of the real division of wage and care work between men and women. The gender identity hypothesis proposed by @akerlof2000 assumes that utility functions are determined by “a person’s sense of self” and therefore differ according to gendered social norms and expectations.
+
+A study by @booth2008 lends support to this hypothesis by finding that British women reach highest job satisfaction and satisfaction with working-hours in part-time rather than full-time jobs, while men prefer to work full-time. Surprisingly, however, women’s life satisfaction is hardly affected by the hours they work. The study poses two puzzles: First, a preference for part-time employment with limited career perspectives seems counter-intuitive given the increasing investment of women into acquiring higher education. Second, the observation that women’s life-satisfaction seems unaffected by changes in job-satisfaction indicates the existence of gender-specific workplace factors that suppresses the link from work-satisfaction to overall happiness for women. 
+
+@bertrand2013 addresses these puzzles by investigating the relationship between career, family and well-being for college-educated women. The study finds that having a family contributes more strongly to women’s happiness than having a career. Interestingly, the study also finds that reported happiness is higher for women who have a family and no career relative to women with both. Women who work, but pursue no career, however, report the lowest life satisfaction. As the study does not control for satisfaction with working time it is, however, hard to interpret the findings with regard to gender norms. One possible explanation for the low satisfaction levels of career women with family is Hochschild’s [-@hochschild1990] ‘second shift’ finding. His study shows that the main responsibility for housework rests disproportionately on women regardless of whether the household has a male or female breadwinner. 
+
+@wunder2012 find evidence for an alternative hypothesis, that women with career aspirations are less satisfied with life because they subordinate their career aspirations once they enter a family constellation. This contradiction between work and family for life satisfaction does not appear for men, who reach highest life satisfaction when attending a full-time job regardless whether they have children or not. Indeed, many women seem to shift from full-time to part-time employment after the first child arrived, which significantly reduces the ability to pursue a career [@paull2008].
+
+To analyse how career pursuits affect life-satisfaction, we rely on direct reports on subjective well-being (SWB) from the General Social Survey. Using SWB (data) presents some methodological concerns, as insights from behavioural economics have questioned individual's’ ability to gauge their life-satisfaction and thus the robustness of SWB data [@kahneman2006; @bertrand2013]. The extent to which this constitutes a problem is widely contested. @nikolova2015, for instance, found that when survey participants were asked two similar life-satisfaction questions at two different points in time during the same survey, 14 per cent of the individuals reported significantly different levels of well-being. Particularly individuals of low socioeconomic status tended to report lower well-being at the second question, signifying the importance of question ordering. This implies a caveat when using SWB data, but it is nonetheless the most readily available data-source on life-satisfaction and no consensus has been reached on a superior measure that is circumscribed from methodological concerns.
 
 # Data 
 
-# Methodology and Challenges
+The three main data-sources for the project are the General Social Survey (GSS), the Current Population Survey (CPS) and O*NET. 
+
+The General Social Survey is a representative cross-sectional survey of the adult population in the United States, which has been conducted from 1972 to 2014. The survey tracks a wide-range of socio-economic, attitudinal and behavioural questions. The most important aspects for this research is reported satisfaction in different dimensions (job-satisfaction and overall happiness), demographic factors as well as socio-economic elements such as hours worked, occupational sector and income. 
+
+The Current Population Survey is a cross-sectional representative survey with about 60.000 monthly respondents. Its size makes it a good source for labour market statistics for certain age cohorts and occupational classifications. 
+
+O*NET is a database developed by the US Department of Labour and contains detailed information on job characteristics for a detailed set of occupational classifications, for instance how important it is to coordinate and lead others. 
+
+
+# Methodology and challenges
+In investigating the relationship between career pursuits and reported life-satisfaction, the major methodological challenge is to address the heterogeneity across individuals pursuing a career and individuals who do not. Or in other words, establish a life-satisfaction counterfactual to the individuals pursuing a career. The specific formulation of this problem changes from hypothesis to hypothesis, and due to space limitations we will here elaborate on the problem for the first and second hypothesis. 
+
+**Hypothesis 1:**   
+When comparing life-satisfaction between women pursuing a career and women who do not, we ultimately face the problem that the two groups of individuals will differ in other characteristics that affect life-satisfaction than just the career, i.e. the decision to pursue a career is not random. 
+
+To minimise the issue of heterogeneity, we expect to follow @bertrand2013 and limit our focus to college educated women, as college educated women are overrepresented among women pursuing a career and are likely to substantially differ from non-college educated women. One can further limit the sample to women with a family (defined as having a partner or having a partner and a child) to further diminish heterogeneity. The remaining identifying variation is then whether having a career significantly influences life-satisfaction relative to women who do not pursue a career, when controlling for age-groups. 
+
+**Hypothesis 2:**   
+To analyse whether social norms are decreasing life-satisfaction for career women outside the workplace, we can analyse whether there is a discrepancy between reported work-satisfaction and life-satisfaction, using males as the counterfactual, who are not facing similar gender norms. 
+
+Specifically, we would first compare job-satisfaction and overall life-satisfaction for career women and career men in similar age groups and occupations. The hypothesis would be that job-satisfaction does not significantly differ, while overall life-satisfaction does. Secondly, we can create a variable that captures the discrepancy between job-satisfaction and overall life-satisfaction to investigate the magnitude and significance of the difference. Note, this is not trivial as they are measured on different scales. Life-satisfaction is on a three-point scale, while job-satisfaction is on a four-point scale. The pragmatic solution is to do the analysis for different constructions. Two examples: i) Use a dummy-variable capturing whether individuals report highest satisfaction on both variables. ii) Limit the sample to individuals who report job-satisfaction at the highest level, and use a dummy variable that measures whether the respondent reported the highest level of life-satisfaction in the regression design. 
+
+Regardless of what design is used, we would then regress the constructed variable on a binary gender variable and demographic and occupation controls and see whether the gender dummy is significant. 
+
+*Quantitative framework*  
+To analyse our hypothesis, we will rely on graphical depictions as well as a relatively simple regression design. In most specifications the dependent variable will be binary, and we can thus both use a linear probability model and a logistical model. We expect to include results from both, but following “Mostly Harmless Econometrics” [@angrist2008], we intend to use a linear probability model as the main specification. 
+
+*Additional challenges*  
+Besides the general challenges of establishing a valid counterfactual we also face a challenge as the main data-source, the GSS, only has around 1.000 survey respondents per year, which will be considerably lowered when limiting the focus to specific sub-groups, such as  college-educated women. Previous studies using the GSS thus often pool survey results across sample years to retrieve a sample size that allows them to draw inference [@okulicz2011; @bertrand2013].  We intend to do the same, though in some sub-analysis we might want to check whether our results are robust over time.
+
+
 
