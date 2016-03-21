@@ -3,10 +3,13 @@ title: "Assignment 2"
 author: "Philip"
 date: "21 Mar 2016"
 output: pdf_document
-bibliography: packages.bib
+bibliography: 
+   - packages.bib
+   - main.bib
 ---
 
-```{r, message=FALSE}
+
+```{r, message=NULL}
 # Load packages and create BibTeX file for R-packages
 PackagesUsed <- c("repmis")
 
@@ -16,6 +19,7 @@ setwd("~/Documents/Collaborative Social Science/Collaborative Analysis Assignmen
 # Load PackagesUsed and create .bib BibTeX file
 repmis::LoadandCite(PackagesUsed, file = "packages.bib", install = FALSE)
 ```
+
 
 
 ## R Markdown
