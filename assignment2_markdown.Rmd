@@ -2,10 +2,22 @@
 title: "Assignment 2: Research Proposal"
 author: "Philip Unger & Philipp Ständer"
 date: "21 Mar 2016"
+header-includes:
+    - \usepackage{setspace}\doublespacing
 output: pdf_document
 bibliography: main.bib
 ---
 
+```{r, message=FALSE}
+# Load packages and create BibTeX file for R-packages
+PackagesUsed <- c("repmis")
+
+# Set working directory
+setwd("~/Dropbox/4_Spring_2016/2_Collaborative Data Analysis/PandP_Ass1")
+
+# Load PackagesUsed and create .bib BibTeX file
+repmis::LoadandCite(PackagesUsed, file = "Packages.bib", install = FALSE)
+```
 # Introduction
 In today’s society, most people expect more from their jobs and careers than simply making a living. A job is a key determinant for social status, identity, as well as an expression of independence. It is supposed to match your interests and educational achievements, it should be rewarding and subsequently it is an important factor for life-satisfaction. The importance of work is supported by academic studies, Allmendinger (forthcoming), for instance, found based on a German survey that employment was the factor that most respondent regarded as ‘highly important’, more so than any other goal or value in life [Footnote: Preliminary results were published by @zeit2016]. One could summarise it as such: “you spend too much time on work to do something you don’t like”.
 
@@ -67,6 +79,8 @@ To analyse our hypothesis, we will rely on graphical depictions as well as a rel
 *Additional challenges*  
 Besides the general challenges of establishing a valid counterfactual we also face a challenge as the main data-source, the GSS, only has around 1.000 survey respondents per year, which will be considerably lowered when limiting the focus to specific sub-groups, such as  college-educated women. Previous studies using the GSS thus often pool survey results across sample years to retrieve a sample size that allows them to draw inference [@okulicz2011; @bertrand2013].  We intend to do the same, though in some sub-analysis we might want to check whether our results are robust over time.
 
+# Packages used
+The analysis is done in R [@CiteR] with the use of the following packages: "doBy" [@R-doBy], "ggplot2" [@R-ggplot2], "repmis" [@R-repmis] and "dplyr" [@R-dplyr].
 
 # References
 
