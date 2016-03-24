@@ -3,4 +3,4 @@ In this repository you can find the second pair assignment for 'Introduction to 
 
 **Students:** Philipp Ständer and Philip Unger. 
 
-The assignment involves to provide a research proposal for the Collaborative Research Project. The research proposal introduces the research question and hypotheses we seek to analyze in our research project. Furthermore, we provide a preliminary literature review and present some methodological considerations.
+In this assignment we develop a research proposal for the Collaborative Research Project. The research proposal introduces the research question and hypotheses we seek to analyze in our research project. Furthermore, we provide a preliminary literature review and present some methodological considerations.
