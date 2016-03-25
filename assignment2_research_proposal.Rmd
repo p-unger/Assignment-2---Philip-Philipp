@@ -1,5 +1,5 @@
 ---
-title: "Assignment 2: Research Proposal"
+title: "Research Proposal: Career and Gender Norms - Do successful women struggle to live a happy life?"
 author: "Philip Unger & Philipp Ständer"
 date: "21 Mar 2016"
 header-includes:
